@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+{/* ONLY Responsive
+NO Functionalities added*/}
+*{
+    margin: 0;
+    padding: 0;
+}
+.main-contaier
+{
+    display: flex;
+    flex-direction: column;
+   
+
+}
+
+.logo {
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: 700;
+    font-size: 2rem;
+    padding: 15px;
+    
+
+}
+.create{
+    background-color: #2832C2;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    margin: 15px;
+    border-radius: 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+.oneheader{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.section{ 
+    
+    display: flex;    
+    justify-content: space-between;
+    align-self: center;
+    width: 95%;  
+    margin: 1rem;
+    background: #e8e8e8;
+    border-radius: 8px;
+    padding: 1.2rem 1rem; overflow: hidden;
+    box-shadow: 0 5px 25px 2px rgba(0,0,0,0.11);
+
+}
+
+p{
+    font-family: "Roboto Condensed", sans-serif;
+    padding-bottom: 5px;
+    font-weight: 500;
+}
+
+.isearch{
+    margin-right:25px ;
+}
+
+.input-wrapper{
+    background-color: white;
+    width: 140%;
+    border-radius: 10px;
+    height: 2rem;
+    padding: 0 8px;
+    box-shadow: 0px 0px 8px #ddd;
+    
+    display: flex;
+    align-items: center;
+}
+
+
+input{
+    background-color: transparent;
+    border: none;
+    height: 100%;
+    font-size: 1rem;
+    width: 100%;
+    margin-left: 5px;
+}
+
+input:focus{
+    outline: none;
+}   
+
+.cate{
+    background-color: white;
+    width: 140%;
+    border-radius: 10px;
+    height: 2rem;
+    font-size: 1rem;
+    padding: 0 8px;
+    box-shadow: 0px 0px 8px #ddd;
+}
+
+.cate2{
+    background-color: white;
+    width: 140%;
+    font-size: 1rem;
+    border-radius: 10px;
+    height: 2rem;
+    padding: 0 8px;
+    box-shadow: 0px 0px 8px #ddd;
+    display: flex;
+    flex-direction: row;
+}
+
+.btnsearch{
+    background-color: #2832C2;
+    border: none;
+    color: white;
+    padding: 10px 40px;
+    margin: 15px;
+    border-radius: 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+@media screen and (max-width: 1020px){
+    .section{
+        display: flex;
+        flex-direction: column;
+    }
+    .cate{
+        width: 100%;
+    }
+    .cate2{
+        width: 100%;
+    }
+    .input-wrapper{
+        width: 100%;
+    }
+    
+
+}
+
+
+.subheader{
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    background: #e8e8e8;
+    
+    border-radius: 8px;
+    padding: 1.2rem 1rem; 
+   margin: 1rem;
+    overflow: hidden;
+    box-shadow: 0 5px 25px 2px rgba(0,0,0,0.11);
+}
+.subcontainer{
+    display: flex;    
+    align-self: center;
+    justify-content: space-between;
+    width: 100%;  
+
+}
+.rightside{
+    display: flex;
+    align-self: center;
+    
+}
+.pagination{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pagination a{
+    color: grey ;
+    text-decoration: none;
+    padding: 4px 7px;
+    display: inline-block;
+
+}
+
+.pagination a.active{
+    background-color: #2832C2;
+    font-weight: bold;
+    border-radius: 5px;
+    
+}
+.pagination  a:hover:not(.active){
+    background-color: hsl(0, 0%, 77%);
+    border-radius: 5px;
+}
+.right{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-family: "Roboto Condensed", sans-serif;
+}
+
+
+
+.right1{
+    align-items: center;
+    background-color: white;
+    width: 100%;
+    border-radius: 10px;
+    height: 2rem;
+    font-size: 1rem;
+    padding: 0 8px;
+    box-shadow: 0px 0px 8px #ddd;
+}
+
+.dispatch{
+    background-color: #2832C2;
+    border: none;
+    color: white;
+    padding: 8px 18px;
+    margin: 15px;
+    border-radius: 8px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
