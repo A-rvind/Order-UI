@@ -1,6 +1,7 @@
 Live Link :  <br>
 
-https://test-yoxaz.netlify.app/
+https://test-yoxaz.netlify.app/ <br>
+The website is responsive and It is UI.
 
 
 # React + Vite
